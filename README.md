@@ -1,3 +1,1 @@
-🐶
-
 ![](circle-k-result.png)
