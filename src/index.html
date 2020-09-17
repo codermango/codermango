@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet" />
+    <style>
+      * {
+        font-family: 'Yatra One', cursive;
+        font-size: 20px;
+      }
+      body {
+        width: 500px;
+      }
+      .gas-prices {
+        display: flex;
+        flex-direction: column;
+      }
+      .gas {
+        display: flex;
+        align-items: center;
+      }
+      .gas > * {
+        margin: 8px 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gas-prices">
+      <div class="gas">
+        <img src="{{image95}}" />
+        <span class="price">{{price95}}</span>
+        <span class="date">{{date95}}</span>
+      </div>
+
+      <div class="gas">
+        <img src="{{image98}}" />
+        <span class="price">{{price98}}</span>
+        <span class="date">{{date98}}</span>
+      </div>
+
+      <div class="gas">
+        <img src="{{image98Plus}}" />
+        <span class="price">{{price98Plus}}</span>
+        <span class="date">{{date98Plus}}</span>
+      </div>
+    </div>
+  </body>
+</html>
