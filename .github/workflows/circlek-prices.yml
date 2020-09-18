@@ -6,7 +6,7 @@ name: 'Circle K prices fetch bot'
 # events but only for the master branch
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 6 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -32,7 +32,7 @@ jobs:
       
       - name: Commit and push changes
         run: |
-          git config --global user.name "codermango"
+          git config --global user.name "circlek bot"
           git config --global user.email "codermango@gamil.com"
 
           git add -A
