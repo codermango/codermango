@@ -37,5 +37,5 @@ jobs:
           git config --global user.email "codermango@gamil.com"
 
           git add -A
-          git commit -m "circle k price update"
+          git commit --allow-empty -m "circle k price update"
           git push origin master
