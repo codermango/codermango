@@ -58,7 +58,14 @@ Here are the technologies I have used and am currently using:
 
 **Languages**
 
-<img src="https://readme.app.surmon.me/api/render?template_id=github-top-languages&props.username=codermango&props.theme=dark&props.background=transparent&props.count=12&props.columns=4&props.columnGap=66&props.legendSize=6&svg.width=846&svg.height=188">
+<p align="center">
+  <a href="https://github.com/surmon-china/README.vue/tree/main/templates/github-top-languages">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme.app.surmon.me/api/render?template_id=github-top-languages&props.username=codermango&props.theme=dark&props.background=transparent&props.count=12&props.columns=4&props.rowGap=22&props.columnGap=80&props.legendSize=6&svg.width=846&svg.height=180">
+      <img alt="GitHub Top Languages" src="https://readme.app.surmon.me/api/render?template_id=github-top-languages&props.username=codermango&props.background=transparent&props.count=12&props.columns=4&props.rowGap=22&props.columnGap=80&props.legendSize=6&svg.width=846&svg.height=180">
+    </picture>
+  </a>
+</p>
 
 **Recent Stars...**
 

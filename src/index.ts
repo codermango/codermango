@@ -9,38 +9,47 @@ const gh = axios.create({
 });
 
 async function main() {
-  console.log("Hello, world!");
-  const template = await readFile("./readme.template.md", {
-    encoding: "utf-8",
-  });
+  console.log("Start generating README.md...");
 
-  let updatedTemplate = template;
+  try {
+    const readmeContent = await readFile("./readme.template.md", {
+      encoding: "utf-8",
+    });
 
-  const star: any[] = await gh
-    .get("/users/codermango/starred")
-    .then((data) => data.data);
+    let updatedReadmeContent = readmeContent;
 
-  // get top5 recent starred repos
-  const top5Starred = star
-    .sort(
-      (a, b) =>
-        new Date(b.starred_at).getTime() - new Date(a.starred_at).getTime()
-    )
-    .slice(0, 5);
-  let top5StarredMDText = "";
-  top5Starred.forEach((repo) => {
-    top5StarredMDText += `- [${repo.full_name}](${repo.html_url}) ${repo.description}\n`;
-  });
+    const star: any[] = await gh
+      .get("/users/codermango/starred")
+      .then((data) => data.data);
 
-  updatedTemplate = updatedTemplate.replace(
-    "<!-- recent_star_inject -->",
-    top5StarredMDText
-  );
+    // get top5 recent starred repos
+    const top5Starred = star
+      .sort(
+        (a, b) =>
+          new Date(b.starred_at).getTime() - new Date(a.starred_at).getTime()
+      )
+      .slice(0, 5);
+    let top5StarredMDText = "";
+    top5Starred.forEach((repo) => {
+      top5StarredMDText += `- [${repo.full_name}](${repo.html_url}) ${repo.description}\n`;
+    });
 
-  // generate README.md
-  await writeFile("readme.md", updatedTemplate, { encoding: "utf-8" });
+    updatedReadmeContent = updatedReadmeContent.replace(
+      "<!-- recent_star_inject -->",
+      top5StarredMDText
+    );
 
-  console.log(star);
+    // remove existing README.md
+    await rm("readme.md");
+
+    // generate README.md
+    await writeFile("readme.md", updatedReadmeContent, { encoding: "utf-8" });
+  } catch (error) {
+    console.error(error);
+    return;
+  }
+
+  console.log(`README.md generated successfully at ${new Date()}`);
 }
 
 main();
