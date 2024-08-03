@@ -16,8 +16,6 @@ I am currently working in Stockholm as a Frontend Developer and aspires to becom
 
 Here are the technologies I have used and am currently using:
 
-**Web Developer**
-
 <p>
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
