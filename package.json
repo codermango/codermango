@@ -1,6 +1,7 @@
 {
   "name": "codermango",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.6.0",
   "description": "",
   "main": "index.js",
   "scripts": {
