@@ -39,8 +39,11 @@ async function main() {
       top5StarredMDText
     );
 
-    // remove existing README.md
-    await rm("readme.md");
+    // before remove existing README.md, check if it exists
+    try {
+      await readFile("readme.md", { encoding: "utf-8" });
+      await rm("readme.md");
+    } catch (e) {}
 
     // generate README.md
     await writeFile("readme.md", updatedReadmeContent, { encoding: "utf-8" });
