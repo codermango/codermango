@@ -41,12 +41,12 @@ async function main() {
 
     // before remove existing README.md, check if it exists
     try {
-      await readFile("readme.md", { encoding: "utf-8" });
-      await rm("readme.md");
+      await readFile("README.md", { encoding: "utf-8" });
+      await rm("README.md");
     } catch (e) {}
 
     // generate README.md
-    await writeFile("readme.md", updatedReadmeContent, { encoding: "utf-8" });
+    await writeFile("README.md", updatedReadmeContent, { encoding: "utf-8" });
   } catch (error) {
     console.error(error);
     return;
