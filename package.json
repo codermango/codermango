@@ -1,27 +1,21 @@
 {
   "name": "codermango",
   "version": "1.0.0",
-  "description": "🐶",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsx src/index.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codermango/codermango.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/codermango/codermango/issues"
-  },
-  "homepage": "https://github.com/codermango/codermango#readme",
   "devDependencies": {
-    "prettier": "2.1.1"
+    "@types/node": "^22.1.0",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "node-html-to-image": "^3.0.1",
-    "request": "^2.88.2"
+    "axios": "^1.7.3"
   }
 }
