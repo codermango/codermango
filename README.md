@@ -69,7 +69,7 @@ Here are the technologies I have used and am currently using:
 
 **Recent Stars...**
 
-- [surmon-china/README.vue](https://github.com/surmon-china/README.vue) Design your README.md by @vuejs component.
+- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) 🌱 My digital garden, powered by myself.
 - [hehuapei/visitor-badge](https://github.com/hehuapei/visitor-badge) A badge generator service to count visitors of your markdown file. Fork From:jwenjian/visitor-badge
 - [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) :zap: Dynamically generated stats for your github readmes
 - [wfp/designsystem](https://github.com/wfp/designsystem) World Food Programme User Interface Kit. Developer kit for implementing WFP web style guideline.
