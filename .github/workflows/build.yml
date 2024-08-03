@@ -7,9 +7,7 @@ on:
     branches:
       - master
   schedule:
-    # - cron: "0 0 * * *"
-    # every minite for testing
-    - cron: "* * * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   build:
