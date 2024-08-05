@@ -1,4 +1,4 @@
-# Mark 🧑🏻‍💻 ![](https://visitor-badge.laobi.icu/badge?page_id=codermango.readme) [![wakatime](https://wakatime.com/badge/user/392b0119-abed-4144-ad23-3e1b2232655e.svg)](https://wakatime.com/@392b0119-abed-4144-ad23-3e1b2232655e)
+# Mark 🧑🏻‍💻 [![wakatime](https://wakatime.com/badge/user/392b0119-abed-4144-ad23-3e1b2232655e.svg)](https://wakatime.com/@392b0119-abed-4144-ad23-3e1b2232655e)
 
 <!-- <picture>
   <source
