@@ -67,9 +67,9 @@ Here are the technologies I have used and am currently using:
 
 **Recent Stars...**
 
+- [supabase/supabase](https://github.com/supabase/supabase) The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 - [timolins/react-hot-toast](https://github.com/timolins/react-hot-toast) Smoking Hot React Notifications 🔥 
 - [vercel/little-date](https://github.com/vercel/little-date) A friendly formatter to make date ranges small & sweet
 - [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) 🌱 My digital garden, powered by myself.
 - [hehuapei/visitor-badge](https://github.com/hehuapei/visitor-badge) A badge generator service to count visitors of your markdown file. Fork From:jwenjian/visitor-badge
-- [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) :zap: Dynamically generated stats for your github readmes
 
