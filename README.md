@@ -67,9 +67,9 @@ Here are the technologies I have used and am currently using:
 
 **Recent Stars...**
 
+- [NianBroken/Firework_Simulator](https://github.com/NianBroken/Firework_Simulator) 烟花模拟器，一个可以模拟各种烟花效果的网页|它可以展示各种绚丽多彩的烟花效果，并让人仿佛置身于真实烟花的绚丽世界之中。|模拟烟花|烟花网页|烟花绽放|烟花效果
 - [sirupsen/napkin-math](https://github.com/sirupsen/napkin-math) Techniques and numbers for estimating system's performance from first-principles
 - [supabase/supabase](https://github.com/supabase/supabase) The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 - [timolins/react-hot-toast](https://github.com/timolins/react-hot-toast) Smoking Hot React Notifications 🔥 
 - [vercel/little-date](https://github.com/vercel/little-date) A friendly formatter to make date ranges small & sweet
-- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) 🌱 My digital garden, powered by myself.
 
