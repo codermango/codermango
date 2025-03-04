@@ -56,9 +56,9 @@ Here are the technologies I have used and am currently using:
 
 **Recent Stars...**
 
+- [sindresorhus/promise-fun](https://github.com/sindresorhus/promise-fun) Promise packages, patterns, chat, and tutorials
 - [Innei/Shiro](https://github.com/Innei/Shiro) 📜 A minimalist personal website embodying the purity of paper and freshness of snow.
 - [xzhih/one-key-hidpi](https://github.com/xzhih/one-key-hidpi) Enable macOS HiDPI and have a native setting.
 - [node-formidable/formidable](https://github.com/node-formidable/formidable) The most used, flexible, fast and streaming parser for multipart form data. Supports uploading to serverless environments, AWS S3, Azure, GCP or the filesystem. Used in production.
 - [NianBroken/Firework_Simulator](https://github.com/NianBroken/Firework_Simulator) 烟花模拟器，一个可以模拟各种烟花效果的网页|它可以展示各种绚丽多彩的烟花效果，并让人仿佛置身于真实烟花的绚丽世界之中。|模拟烟花|烟花网页|烟花绽放|烟花效果
-- [sirupsen/napkin-math](https://github.com/sirupsen/napkin-math) Techniques and numbers for estimating system's performance from first-principles
 
